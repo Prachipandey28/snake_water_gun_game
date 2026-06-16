@@ -98,17 +98,6 @@ The winner is decided according to the game rules and displayed instantly.
 
 ---
 
-## 🔮 Future Enhancements
-
-- Multiplayer Mode
-- Sound Effects
-- Leaderboard System
-- Difficulty Levels
-- Game Statistics Tracking
-- Dark / Light Theme
-
----
-
 ## 👩‍💻 Author
 
 **Prachi Pandey**  
