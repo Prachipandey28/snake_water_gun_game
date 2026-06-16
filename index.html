@@ -1,66 +1,79 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snake Water Gun Pro</title>
+    <title>Snake Water Gun Game</title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
 <div class="container">
 
-```
-<h1>🐍 Snake Water Gun 🔫</h1>
-<p class="subtitle">Challenge the Computer</p>
+    <h1>🐍 Snake Water Gun 🔫</h1>
 
-<div class="score-board">
-    <div class="score-card">
-        <h2>You</h2>
-        <span id="userScore">0</span>
+    <p class="subtitle">
+        Challenge the Computer
+    </p>
+
+    <div class="score-board">
+
+        <div class="score-card">
+            <h2>You</h2>
+            <span id="userScore">0</span>
+        </div>
+
+        <div class="score-card">
+            <h2>Computer</h2>
+            <span id="computerScore">0</span>
+        </div>
+
     </div>
 
-    <div class="score-card">
-        <h2>Computer</h2>
-        <span id="computerScore">0</span>
+    <div class="choices">
+
+        <button class="choice snake" onclick="playGame('snake')">
+            🐍
+            <span>Snake</span>
+        </button>
+
+        <button class="choice water" onclick="playGame('water')">
+            💧
+            <span>Water</span>
+        </button>
+
+        <button class="choice gun" onclick="playGame('gun')">
+            🔫
+            <span>Gun</span>
+        </button>
+
     </div>
-</div>
 
-<div class="choices">
+    <div class="result-box">
 
-    <button class="choice" onclick="playGame('snake')">
-        🐍
-        <span>Snake</span>
+        <h2 id="result">
+            Choose Your Weapon
+        </h2>
+
+        <p id="userChoice"></p>
+
+        <p id="computerChoice"></p>
+
+    </div>
+
+    <button class="reset-btn" onclick="resetGame()">
+        Reset Game
     </button>
-
-    <button class="choice" onclick="playGame('water')">
-        💧
-        <span>Water</span>
-    </button>
-
-    <button class="choice" onclick="playGame('gun')">
-        🔫
-        <span>Gun</span>
-    </button>
-
-</div>
-
-<div class="result-card">
-    <h2 id="result">Choose Your Weapon</h2>
-
-    <p id="userChoice"></p>
-    <p id="computerChoice"></p>
-</div>
-
-<button class="reset-btn" onclick="resetGame()">
-    Reset Game
-</button>
-```
 
 </div>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
