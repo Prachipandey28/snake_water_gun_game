@@ -88,7 +88,11 @@ This project helps in understanding:
 
 ## 🎯 Demo
 
-Player selects **Snake**, **Water**, or **Gun**, and the computer randomly chooses one.
+<img width="1226" height="773" alt="Screenshot 2026-06-16 at 9 35 50 PM" src="https://github.com/user-attachments/assets/e63784ac-acae-49b1-8ffb-06be3a701e85" />
+
+
+<img width="918" height="741" alt="Screenshot 2026-06-16 at 9 36 46 PM" src="https://github.com/user-attachments/assets/19839bd3-f31a-4b10-803a-5cf0f528e3e2" />
+
 
 The winner is decided according to the game rules and displayed instantly.
 
